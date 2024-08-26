@@ -1,0 +1,52 @@
+original,modified,orig_units,mod_units,conversion_factor,description,variable_type
+Age,age,years,years,1,Age of the patient in years,Continuous variable
+BMI,bmi,kg/m^2,kg/m^2,1,Body Mass Index of the patient in kg/m^2,Continuous variable
+Height (m),height_m,m,m,1,Height of the patient in cm,Continuous variable
+Weight (Kg),weight_kg,kg,kg,1,Weight of the patient in kg,Continuous variable
+FPG admission,FPG_admission,mmol/L,mg/dL,18.02,Fasting plasma glucose at admission in mmol/L,Continuous variable
+FPG follow-up,FPG_followup,mmol/L,mg/dL,18.02,Fasting plasma glucose at follow-up in mmol/L,Continuous variable
+1hPG admisson,1hPG_admission,mmol/L,mg/dL,18.02,1-hour plasma glucose after OGTT at admission in mmol/L,Continuous variable
+1hPG follow-up,1hPG_followup,mmol/L,mg/dL,18.02,1-hour plasma glucose after OGTT at follow-up in mmol/L,Continuous variable
+2gPG follow-up,2hPG_followup,mmol/L,mg/dL,18.02,2-hour plasma glucose after OGTT at follow-up in mmol/L,Continuous variable
+2hPG admssion,2hPG_admission,mmol/L,mg/dL,18.02,2-hour plasma glucose after OGTT at admission in mmol/L,Continuous variable
+Hb1ac admission,hba1c_admission,%,%,1,Glycated hemoglobin (HbA1c) level at admission in %,Continuous variable
+Hb1ac follow-up,hba1c_followup,%,%,1,Glycated hemoglobin (HbA1c) level at follow-up in %,Continuous variable
+Chol,chol,mmol/L,mg/dL,38.67,Serum total cholesterol level in mmol/L,Continuous variable
+Trig,triglycerides,mmol/L,mg/dL,88.57,Serum triglyceride level in mmol/L,Continuous variable
+ACS diagnosis,acs,binary,binary,1,Diagnosis of acute coronary syndrome,Categorical variable
+BPL medication,bp_meds,binary,binary,1,Unknown variable related to blood pressure or lipid medication giving history of hypertension,Categorical variable
+CASS70,cass70,unitless,unitless,1,Unknown variable; possibly related to coronary artery stenosis score,Unknown variable
+cimtlumen,cimt_lumen,mm,mm,1,Luminal diameter of carotid artery in mm,Continuous variable
+cimtmax,cimt_max,mm,mm,1,Maximum carotid intima-media thickness in mm,Continuous variable
+cimtmean,cimt_mean,mm,mm,1,Mean carotid intima-media thickness in mm,Continuous variable
+Creatine,creatine,_mol/L,_mol/L,1,Serum creatinine level in _mol/L,Continuous variable
+Diagnosis (0=NGM. 1=dysglycemia,dysglycemia_0n1y,binary,binary,1,Diagnosis of glucose metabolism disorder (0 = normal glucose metabolism; 1 = dysglycemia),Categorical variable
+Diagnosis (0=NGM. 1=prediabetes. 2=diabetes),diabetes_0n1pre2dia,categorical,,1,Diagnosis of glucose metabolism disorder (0 = normal glucose metabolism; 1 = prediabetes; 2 = diabetes),Categorical variable
+Diastola,bp_diastolic,mmHg,,,Diastolic blood pressure in mmHg,Continuous variable
+Family history of CVD,cvd_fam_hist,binary,,,Family history of cardiovascular disease,Categorical variable
+Gender (0=male. 1=female),gender_0m1f,unitless,,,Gender of the patient (0 = male; 1 = female),Categorical variable
+Gensini.1,gensini1,unitless,,,Gensini score for assessing severity of coronary artery disease,Continuous variable
+grey,grey,unitless,,,Unknown variable related to carotid ultrasound,Unknown variable
+Hct,hematocrit,%,,,Hematocrit percentage,Continuous variable
+Hgb,hemoglobin_g-L,g/L,,,Hemoglobin level in g/L,Continuous variable
+Hip circumference (cm),hip_circ_cm,cm,,,Hip circumference of the patient in cm,Continuous variable
+Hissmoke (0=no. 1= yes) ,smoked_0n1y,binary,,,History of smoking (0 = no; 1 = yes),Categorical variable
+hscrp,crp_hs,mg/L,,,High-sensitivity C-reactive protein level in mg/L,Continuous variable
+Insulin,insulin,mU/L,,,Serum insulin level in mU/L,Continuous variable
+IR,ir,unitless,,,Insulin resistance index,Continuous variable
+K,potasium,mmol/L,,,Serum potassium level in mmol/L,Continuous variable
+MCV,mcv,fL,,,Mean corpuscular volume in fL,Continuous variable
+Na,sodium,mmol/L,,,Serum sodium level in mmol/L,Continuous variable
+On statin at mission,statin_admission,binary,,,Patient was on statin medication at admission,Categorical variable
+Pakkaadr,pakkaadr_unknown,unknown,,,Unknown variable,Unknown variable
+Plaque (0=no. 1=yes),plaque,binary,,,Presence of atherosclerotic plaque in carotid arteries (0 = no; 1 = yes),Categorical variable
+platelets,platelets_cells-microL,10^9/L,,,Platelet count in 10^9/L,Continuous variable
+Previous CAD (0=no. 1=yes),cad_0n1y,binary,,,Previous history of coronary artery disease (0 = no; 1 = yes),Categorical variable
+RBC,rbc_cells-microL,10^12/L,,,Red blood cell count in 10^12/L,Continuous variable
+Smokestat (0=never. 1=previous. 2= current),smoker_0n1fmr2crnt,categorical,,,Smoking status (0 = never; 1 = previous; 2 = current),Categorical variable
+stiffness,stiffness,unitless,,,Unknown variable related to arterial stiffness,Continuous variable
+Systola,bp_systolic,mmHg,,,Systolic blood pressure in mmHg,Continuous variable
+TPA,tpa,mm^2,,,Total plaque area in carotid arteries in mm^2,Categorical variable
+Waist circumference(cm),waist_circ_cm,cm,,,Waist circumference of the patient in cm,Continuous variable
+Waist to hip ratio,waist2hip,unitless,,,Ratio of waist circumference to hip circumference,Continuous variable
+WBC,wbc_cells-microL,10^9/L,,,White blood cell count in 10^9/L,Continuous variable
